@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: DeepSkyBlue;
+    color: white;
+
+}
+.logo{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+button{
+    height: 25px;
+    width: 80px;
+    font-size: large;
+    background-color: oklch(34.447% 0.03483 291.318);
+    color: white;
+    border-radius: 5px;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px 0px 100px;
+
+    
+}
+img{
+    width: 450px;
+    margin-top: -30px;
+}
+.greet{
+     padding: 60px 220px 0px 0px;
+     
+}
+.wlcm{
+    
+    display: block;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro{
+    padding: 30px 0px 0px 0px;
+}
+.sec2{
+    display: block;
+    
+}
+.prdt{
+    padding-left: 100px;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.container{
+    display: block;
+    margin-left: 150px;
+    padding: 70px 0px 50px 0px;
+    
+    
+}
+.box-container1{
+    display: flex;
+    gap: 50px;
+}
+.box-container2{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.box1{
+    
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce1.jpg');
+    background-size: 400px 263px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    align-content: end;
+
+}
+.sec3{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt1{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro1{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn1{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy1{
+    
+    color: white;
+    background-color: mediumpurple;
+
+    
+
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce2.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 263px;
+    border-radius: 5px;
+    background-color: gray;
+    align-content: end;
+}
+
+.sec4{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt2{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro2{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn2{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy2{
+    
+   color: white;
+    background-color: mediumpurple;
+    
+
+}
+
+.box3{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce3.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 263px;
+    border-radius: 5px;
+    align-content: end;
+}
+
+.sec5{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt3{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro3{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn3{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy3{
+    
+    color: white;
+    background-color: mediumpurple;
+    
+
+}
+
+.box4{
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce4.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 263px;
+    border-radius: 5px;
+    background-color: gray;
+    align-content: end;
+}
+
+.sec6{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt4{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro4{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn4{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy4{
+   
+    color: white;
+    background-color: mediumpurple;
+
+
+}
+
+.box5{
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce5.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 263px;
+    border-radius: 5px;
+    background-color: gray;
+    align-content: end;
+}
+
+.sec7{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt5{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro5{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn5{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy5{
+    
+    color: white;
+    background-color: mediumpurple;
+    
+
+    
+
+}
+.box6{
+    width: 400px;
+    height: 400px;
+    background-image: url('loyce6.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 263px;
+    border-radius: 5px;
+    background-color: gray;
+    align-content: end;
+}
+
+.sec8{
+    background-color: white;
+    width: 390px;
+    height: 130px;
+    display: block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+
+
+}
+.prdt6{
+    
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    padding: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro6{
+    font-size:small;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.btn6{
+    padding: 0px 270px;
+
+   
+    
+}
+.buy6{
+
+    color: white;
+    background-color: mediumpurple;
+    
+    
+
+}
+.sec9{
+    display: flex;
+    padding-bottom: 40px;
+}
+.fm{
+    background-color: gainsboro;
+    width: 650px;
+    height: 500px;
+    margin-left: 0px;
+
+}
+.fm-container{
+   margin-top: 100px;
+   margin-left: 35px;
+}
+.contact{
+    align-content: center;
+    margin-left: -39px;
+    margin-right: -9px;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 550px;
+    padding-left: 300px;
+    
+
+    
+}
+.inpt1{
+    width: 590px;
+    height: 30px;
+}
+.inpt2{
+    
+    width: 590px;
+    padding-bottom: 200px;
+}
+.btn7{
+    margin-left: 515px;
+    background-color: mediumpurple;
+}
+.sec10{
+    justify-content: center;
+    background-color: DeepSkyBlue;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px 0px 0px 0px;
+}
